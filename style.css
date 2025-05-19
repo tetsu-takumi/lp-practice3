@@ -154,3 +154,7 @@ i:hover{
     font-size: 13px;
     letter-spacing: 0.5px;
 }
+a {
+    text-decoration: none;
+  }
+  
