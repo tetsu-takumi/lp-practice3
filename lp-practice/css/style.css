@@ -186,23 +186,38 @@ a {
     padding-bottom: 50px;
 }
 @media(max-width: 1199px) {
+.inner{
+    width: 97%;
+}
 .keyvisual{
     padding: 250px 0;
 }
-.news{
-    padding: 50px 0;
-}
 .newscontents{
     display: block;
+    padding-bottom: 50px;
+}
+.fukidashi,
+.newstext{
+    float: none;
     width: 100%;
+    box-sizing: border-box;
 }   
+.fukidashi{
+    max-width: 300px;       
+    height: auto;     
+    margin: 0 auto;   
+    display: block;  
+}
+.newstext{
+    width: 100%;
+}
 .myskills{
     display: block;
 }
 .myskills a {
   display: block;
   width: 100%;
-  margin-bottom: 50px;
+  
 }
 .myskills a:nth-child(3),
 .myskills a:nth-child(7),
