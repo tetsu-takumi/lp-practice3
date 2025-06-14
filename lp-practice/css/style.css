@@ -185,3 +185,28 @@ a {
 .skills h3{
     padding-bottom: 50px;
 }
+@media(max-width: 1199px) {
+.keyvisual{
+    padding: 250px 0;
+}
+.news{
+    padding: 50px 0;
+}
+.newscontents{
+    display: block;
+    width: 100%;
+}   
+.myskills{
+    display: block;
+}
+.myskills a {
+  display: block;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.myskills a:nth-child(3),
+.myskills a:nth-child(7),
+.myskills a:nth-child(11) {
+  margin-bottom: 80px;
+}
+}
