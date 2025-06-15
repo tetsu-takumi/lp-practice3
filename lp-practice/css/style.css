@@ -233,6 +233,7 @@ a {
 }
 .myskills{
     display: block;
+    padding-bottom: 0px;
 }
 .myskills a {
   display: block;
@@ -240,8 +241,8 @@ a {
   
 }
 .myskills a:nth-child(3),
-.myskills a:nth-child(7),
-.myskills a:nth-child(11) {
+.myskills a:nth-child(6),
+.myskills a:nth-child(12) {
   margin-bottom: 80px;
 }
 }
@@ -269,5 +270,51 @@ a {
 }
 .keyvisual h3{
     font-size: 30px;
+}
+.newscontents{
+    display: block;
+    padding-bottom: 50px;
+}
+.fukidashi,
+.newstext{
+    float: none;
+    width: 100%;
+    box-sizing: border-box;
+}   
+.fukidashi{
+    max-width: 300px;       
+    height: auto;     
+    margin: 0 auto;   
+    display: block;  
+}
+.newstext{
+    width: 100%;
+}
+.myskills a {
+  display: block;
+  width: 100%;
+  
+}
+.myskills a:nth-child(3),
+.myskills a:nth-child(6),
+.myskills a:nth-child(12) {
+    margin-bottom: 80px;
+}
+tr th{
+    font-size: 14px;
+    line-height: 22px;
+}
+tr td{
+    font-size: 12px;
+}
+.sns{
+    padding: 50px 0;
+}
+nav.sns .inner a i.fas,
+nav.sns .inner a i.fab{
+    padding: 50px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
 }
 }
